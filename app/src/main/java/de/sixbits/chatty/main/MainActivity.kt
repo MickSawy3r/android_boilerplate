@@ -10,9 +10,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // Inject Here
-//        (application as MyApplication).appComponent
-//            .productsComponent().create()
+//          Inject Here
+//          (application as MyApplication).appComponent
+//          .productsComponent().create()
 
         setContentView(R.layout.activity_main)
     }
